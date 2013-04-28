@@ -1,0 +1,9 @@
+
+    USAGE
+
+        jsify [files] [options]
+
+    OPTIONS
+        -o      --out         Target file to save.
+        -v      --version     Show version and exit.
+        -h      --help        Show this help and exist.

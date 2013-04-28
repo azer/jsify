@@ -1,0 +1,29 @@
+{
+  "name": "jsify",
+  "version": "0.0.0",
+  "description": "Convert text files to JavaScript modules",
+  "main": "index.js",
+  "bin": {
+    "jsify": "./bin/jsify"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "repository": {
+    "url": "git@github.com:azer/jsify.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "map": "0.0.1",
+    "new-partial": "0.0.1",
+    "comp": "0.0.1",
+    "glob": "~3.2.1",
+    "optimist": "~0.4.0",
+    "flatten-array": "0.0.1"
+  }
+}

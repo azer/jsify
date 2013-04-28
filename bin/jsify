@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var opt = require('optimist'), argv;
+
+argv = opt
+  .options('out', { alias: 'o' })
+  .options('version', { alias: 'v' })
+  .options('help', { alias: 'h' })
+  .argv;
+
+var cli     = require('../lib/cli'),
+    help    = require('../lib/help'),
+    version = require('../lib/version');
+
+if(argv.help) help();
+if(argv.version) version();
+
+cli(argv._, argv);

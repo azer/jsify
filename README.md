@@ -24,7 +24,7 @@ require('./templates/foo')
 Multiple files:
 
 ```bash
-$ jsify templates/**/*.html -o lib/templates/index.js
+$ jsify templates/**/*.html -o lib/templates.js
 ```
 
 ```js

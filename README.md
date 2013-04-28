@@ -43,4 +43,4 @@ templates['eggs/corge']
 // => "<html>this is eggs/corge.html</html>"
 ```
 
-![](https://dl.dropbox.com/s/9q2p5mrqnajys22/npmel_14.jpg)
+![](https://dl.dropboxusercontent.com/s/s6npnnexhy4c1ew/npmel_13.jpg)

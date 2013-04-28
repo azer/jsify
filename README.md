@@ -10,7 +10,7 @@ $ npm install jsify
 
 ## Usage
 
-Single files:
+Single file:
 
  ```bash
 $ jsify templates/foo.html -o lib/templates/foo.js

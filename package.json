@@ -1,6 +1,6 @@
 {
   "name": "jsify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert text files to JavaScript modules",
   "main": "index.js",
   "bin": {

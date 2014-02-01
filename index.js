@@ -6,5 +6,5 @@ function jsify(text){
 }
 
 function str(text){
-  return text.replace(/\"/g, '\\"').replace(/\n/g, ' ').replace(/\s$/, '').replace(/\s+/g, ' ');
+  return text.replace(/\"/g, '\\"').replace(/\n/g, '\\n').replace(/\s$/, '').replace(/\s+/g, ' ');
 }
